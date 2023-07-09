@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Something BookStore | Home</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="onlyforindex.css">
+
+    <!-- ===for social icons==== -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    
+  </head>
+
+  <body id="home">
+    <!------------------ Header ------------------>
+    <div class="container">
+    <div class="header">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+              <h2>Something BookStore</h2></a>
+          </div>
+          <!----------  Nav Bar ------------------>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Cart/cart.html">
+                Cart
+                <span class="material-symbols-outlined">
+                shopping_cart
+               
+              </a> </span><span class="cart-count">0</span></li>
+              <li><a href="Inquiry/inquiry.html">Inquiry</a></li>
+
+            </ul>
+          </nav>
+          
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <div class="aboutus">
+              <h1>About Us<br />
+            
+              </h1>
+              <!-- ----About us ---- -->
+              <p>
+                Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, totam. adipisicing elit.<br />
+                Incidunt voluptas, porro nisi beatae inventore consequuntur?
+              </p>
+            </div>
+            
+            <!-- -----------social links---- -->
+            <div class="social-sites">
+              <a href="#" class="fa fa-facebook"></a>  
+                <a href="#" class="fa fa-twitter"></a>  
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+          </div>
+         
+          
+        </div>
+      </div>
+    </div>
+    
+    <!----------------Available Books -------------------->
+    <div class="small-container">
+      <h2 class="title">Available Books</h2>
+      
+        <div class="row">
+
+
+          <!-- div where books are display on through array from script -- -->
+        <div id="books">
+     <!--  items are here from array ---- -->
+        </div>
+
+        
+      </div>
+    </div>
+    
+    
+    
+    <!-- ---------------------footer------------------- -->
+    <div class="footer">
+      <div class="container">
+        
+        <p class="copyright">Copyright &copy; 2022 - Something BookStore</p>
+      </div>
+    </div>
+
+    <!-- -----Including script  and display books items through in homepage------- -->
+    <script src="script.js"></script>
+  </body>
+</html>

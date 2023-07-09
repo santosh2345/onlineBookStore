@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Something Bookstore| Cart</title>
+   
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="cart.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
+</head>
+
+<body id="cart">
+
+    <!------------------ Header ------------------>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="../index.html">
+                    <h2>Something BookStore</h2>
+                </a>
+            </div>
+            <!----------  Nav Bar ------------------>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="../index.html">Home</a></li>
+
+                    <li><a href="cart.html">Cart<span class="material-symbols-outlined">
+                        shopping_cart
+                        </span></a><span class="cart-count">0</span></li>
+                    <li><a href="../Inquiry/inquiry.html">Inquiry</a></li>
+
+
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+
+
+    <div class="cart">
+        <div class="cart-header">
+            <div class="column1">Item</div>
+            <div class="column2">Unit price</div>
+            <div class="column3">Units</div>
+        </div>
+        <div class="cart-items">
+            <!-- render cart items here -->
+           
+            
+        </div>
+        <div class="cart-footer">
+            <div class="subtotal">
+                <p>Total Amount of <span class="subtotalCount">0</span> items: $<span class="totalAmount">500</span></p>
+            </div>
+            <div class="checkout">
+                <p>Proceed to checkout</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ---------------------footer------------------- -->
+    <div class="footer-wrap">
+
+        <div class="footer">
+
+
+            <p class="copyright">Copyright &copy; 2022 - Something BookStore</p>
+        </div>
+    </div>
+
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

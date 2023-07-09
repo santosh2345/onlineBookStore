@@ -1,0 +1,22 @@
+.navbar {
+    background: radial-gradient(#fff, #d7bdfb);
+    width: 92%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 1rem;
+  }
+
+  .header .row{
+    margin-top:7rem;
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .header .row{
+        margin-top:12rem;
+      }
+  }
